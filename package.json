@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "firebase-admin": "^13.6.0"
+  }
 }
