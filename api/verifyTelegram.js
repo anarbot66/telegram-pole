@@ -15,7 +15,7 @@ function initFirebase() {
 }
 
 function verifyInitData(initData) {
-  // initData — строка: window.Telegram.WebApp.initData (включает hash)
+  // initData — строка: window.Telegram.WebApp.initData (включает hash) s
   const params = Object.fromEntries(new URLSearchParams(initData));
   const hash = params.hash;
   delete params.hash;
